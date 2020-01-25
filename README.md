@@ -231,6 +231,11 @@ git log
 The above command will list all the commits that have happened to your code, underneath the branch you're on.
 The first commit listed will be the one you just made, and will include your commit message.
 
+Another way to make a commit without having to bring up an editor is with the following command:
+```console
+git commit -m "<your commit message goes here>"
+```
+
 ### Step 7: Push your Branch and Your Changes ###
 
 While you have made changes and they are safely in your branch, this branch exists only on your machine.
