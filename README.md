@@ -191,6 +191,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
 The above output states that `README.md` has changed since your last commit, and that the file `temp.txt` has been added.
+
 You must explicitly tell `git` which files to _stage_ for a commit, where a staged file becomes part of the commit.
 You can stage files with `git add`, like so:
 
@@ -211,6 +212,24 @@ Changes to be committed:
 	modified:   README.md
 	new file:   temp.txt
 ```
+
+Another cool feature that allows you to see what has been explicitly changed inside any files have added or would like to add to the staged commit is the `git diff` command. Once you have added new contents to any type of file, you can pair the `git status` and `git diff` commands to show you which files have been modified and what contents have been added/deleted.
+
+For this particular example, we see the following:
+```
+@@ -212,6 +213,12 @@ Changes to be committed:
+        new file:   temp.txt
+
++Another cool feature that allows you to see what has been explicitly changed inside any files have added or would like to add to the staged commit is the `git diff` command. Once you have added new contents to any type of file, you can pair the `git status` and `git diff` commands to show you which files have been modified and what contents have been added/deleted.
++
++For this particular example, we see the following:
++
++
++
+ The above output summarizes the changes this commit is introducing relative to the last commit, namely that `README.md` is modified, and that we've added `temp.txt`.
+ ```
+
+ The '+' sign will denote the new contents that have been added and the '-' sign will denote the contents that have been deleted.
 
 The above output summarizes the changes this commit is introducing relative to the last commit, namely that `README.md` is modified, and that we've added `temp.txt`.
 
