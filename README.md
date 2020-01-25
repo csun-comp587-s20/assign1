@@ -232,7 +232,9 @@ The above command will list all the commits that have happened to your code, und
 The first commit listed will be the one you just made, and will include your commit message.
 
 Another way to make a commit without having to bring up an editor is with the following command:
+```console
 git commit -m "<your commit message goes here>"
+```
 
 ### Step 7: Push your Branch and Your Changes ###
 
