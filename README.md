@@ -158,6 +158,34 @@ Make an edit to this file (`README.md`), which is in [Markdown](https://en.wikip
 Your edit should somehow improve the content.
 This can mean adding further descriptions, adding demonstrative pictures, etc.
 
+
+EDIT (1/25/2020):
+
+We're missing a command to add a temp.txt file into our repo. I'm using Git Bash, a useful command to create files without any headache. (Taken From https://stackoverflow.com/questions/36525105/how-do-i-create-a-text-file-and-add-text-to-it-in-git-bash?rq=1).
+
+```
+echo "YOUR TEXT HERE" > FileName
+```
+
+To make sure this file stays relevant from here till the end of time, add this ascii representation of a toucan:
+
+```
+echo "░░░░░░░░▄▄▄▀▀▀▄▄███▄░░░░░░░░░░░░░░
+░░░░░▄▀▀░░░░░░░▐░▀██▌░░░░░░░░░░░░░
+░░░▄▀░░░░▄▄███░▌▀▀░▀█░░░░░░░░░░░░░
+░░▄█░░▄▀▀▒▒▒▒▒▄▐░░░░█▌░░░░░░░░░░░░
+░▐█▀▄▀▄▄▄▄▀▀▀▀▌░░░░░▐█▄░░░░░░░░░░░
+░▌▄▄▀▀░░░░░░░░▌░░░░▄███████▄░░░░░░
+░░░░░░░░░░░░░▐░░░░▐███████████▄░░░
+░░░░░le░░░░░░░▐░░░░▐█████████████▄
+░░░░toucan░░░░░░▀▄░░░▐█████████████▄ 
+░░░░░░has░░░░░░░░▀▄▄███████████████ 
+░░░░░arrived░░░░░░░░░░░░█▀██████░░" > temp.txt
+```
+
+Now the temp file has purpose again.
+
+
 ### Step 6: Commit Your Changes ###
 
 `git` knows what the state of the branch was before you started making edits, and will show you the changes made since your last _commit_.
