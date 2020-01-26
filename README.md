@@ -167,7 +167,7 @@ We're missing a command to add a temp.txt file into our repo. I'm using Git Bash
 echo "YOUR TEXT HERE" > FileName
 ```
 
-This w stays relevant from here till the end of time, add this ascii representation of a toucan:
+To make sure this file stays relevant from here till the end of time, add this ascii representation of a toucan:
 
 ```
 echo "░░░░░░░░▄▄▄▀▀▀▄▄███▄░░░░░░░░░░░░░░
