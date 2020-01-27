@@ -1,4 +1,5 @@
 # Assignment 1: Git and GitHub Basics #
+Myname is Guillermo Haro and I am updated this branch to help with the navigation of the path
 
 The purpose of this assigmment is to give you a basic working knowledge of `git` and [GitHub](https://github.com/), especially as they relate to code reviews.
 This may seem intimidating at first, but it quickly becomes second nature.
@@ -73,7 +74,7 @@ If you type the following command:
 ```console
 git remote -v
 ```
-
+Make sure this is typed while onthe path of assign1. To get to that simply type cd "file path location" that can be C:\blabalal 
 ...you'll see all the remotes that you already have setup.
 This should give you output like the following:
 
@@ -92,7 +93,7 @@ Then, run the following command:
 ```console
 git remote add upstream URL
 ```
-
+Make sure this is typed while onthe path of assign1. To get to that simply type cd "file path location" that can be C:\blabalal 
 ...where `URL` is the URL from the original repository.
 This command states to add a new remote named `upstream`, which points to `URL`.
 By convention, `upstream` points to the source we forked from.
@@ -104,6 +105,7 @@ We won't get into how to sync in this assignment, but see [these instructions](h
 It's good practice to establish the `upstream` immediately, even if you aren't going to use it immediately, and I want you to get in the habit of doing this.
 
 ### Step 4: Create a New Local Branch ###
+Make sure this is typed while onthe path of assign1. To get to that simply type cd "file path location" that can be C:\blabalal 
 
 In this step, we'll introduce _branches_, which are an essential `git` feature.
 Branches essentially allow you to split into a sort of parallel universe with respect to your code.
@@ -125,7 +127,7 @@ Type the following command:
 ```console
 git branch
 ```
-
+Make sure this is typed while onthe path of assign1. To get to that simply type cd "file path location" that can be C:\blabalal 
 You should see the following:
 
 ```
@@ -141,7 +143,7 @@ Let's make a new branch, using the following command:
 ```console
 git checkout -b updated
 ```
-
+Make sure this is typed while onthe path of assign1. To get to that simply type cd "file path location" that can be C:\blabalal 
 This creates a new branch named `updated`, which splits off from the `master` branch.
 If you run `git branch` again, you should see the following:
 
@@ -170,7 +172,10 @@ You can do this with the following command:
 
 ```console
 git status
+
 ```
+
+Make sure this is typed while onthe path of assign1. To get to that simply type cd "file path location" that can be C:\blabalal 
 
 This will give you output something like the following:
 
@@ -198,6 +203,8 @@ You can stage files with `git add`, like so:
 git add README.md temp.txt
 ```
 
+Make sure this is typed while onthe path of assign1. To get to that simply type cd "file path location" that can be C:\blabalal 
+
 The above command states that changes to `README.md` are part of this commit, and that `temp.txt` is similarly part of this commit.
 
 You can use `git status` again to see the effect of this staging.
@@ -220,6 +227,8 @@ Once everything you want is staged, you can commit your changes like so:
 git commit
 ```
 
+Make sure this is typed while onthe path of assign1. To get to that simply type cd "file path location" that can be C:\blabalal 
+
 This will bring up an editor (honoring the `$EDITOR` environment variable), allowing you to write a descriptive message (the _commit message_) for your commit.
 Once you save your message, your commit will be done.
 You can verify that your commit did something like so:
@@ -227,6 +236,8 @@ You can verify that your commit did something like so:
 ```console
 git log
 ```
+
+Make sure this is typed while onthe path of assign1. To get to that simply type cd "file path location" that can be C:\blabalal 
 
 The above command will list all the commits that have happened to your code, underneath the branch you're on.
 The first commit listed will be the one you just made, and will include your commit message.
@@ -240,6 +251,7 @@ This can be done with the following command:
 ```console
 git push -u origin updated
 ```
+Make sure this is typed while onthe path of assign1. To get to that simply type cd "file path location" that can be C:\blabalal 
 
 This command states to _push_ (upload) your `updated` branch to the `origin` remote.
 This will make the `updated` branch available to anyone else working on your repository.
@@ -251,6 +263,8 @@ On subsequent runs, `git` will default to using the `origin` remote for the `upd
 ```console
 git push
 ```
+
+Make sure this is typed while onthe path of assign1. To get to that simply type cd "file path location" that can be C:\blabalal 
 
 ### Step 8: Submit a Pull Request ###
 
