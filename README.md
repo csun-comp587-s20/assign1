@@ -158,6 +158,9 @@ Make an edit to this file (`README.md`), which is in [Markdown](https://en.wikip
 Your edit should somehow improve the content.
 This can mean adding further descriptions, adding demonstrative pictures, etc.
 
+Create a temp.txt file in the root directory of the project.
+This text file may contain anything.
+
 ### Step 6: Commit Your Changes ###
 
 `git` knows what the state of the branch was before you started making edits, and will show you the changes made since your last _commit_.
@@ -289,3 +292,11 @@ In the next assignment, we'll work with these submitted pull requests for code r
 In this assignment, you've gone over some basics of using `git` and GitHub.
 You've forked and cloned repositories, made branches, committed code, and submitted a pull request.
 While this barely scratches the surface of what you can do with `git`, this describes ~80-90% of commonly-used functionality.
+
+### Additional Reading ###
+
+[GitHub Guides](https://guides.github.com/)
+
+[Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
+
+[GitHub Handbook](https://guides.github.com/introduction/git-handbook/)
