@@ -1,6 +1,6 @@
 # Assignment 1: Git and GitHub Basics #
 
-The purpose of this assigmment is to give you a basic working knowledge of `git` and [GitHub](https://github.com/), especially as they relate to code reviews.
+The purpose of this assignment is to give you a basic working knowledge of `git` and [GitHub](https://github.com/), especially as they relate to code reviews.
 This may seem intimidating at first, but it quickly becomes second nature.
 You will use these same skills throughout your projects for handling code reviews.
 
@@ -154,9 +154,41 @@ Now there are two branches (`master` and `updated`), and the `*` denotes that yo
 
 ### Step 5: Improve this Text ###
 
-Make an edit to this file (`README.md`), which is in [Markdown](https://en.wikipedia.org/wiki/Markdown) (specifically [GitHub-flavored Markdown](https://github.github.com/gfm/)) format.
-Your edit should somehow improve the content.
-This can mean adding further descriptions, adding demonstrative pictures, etc.
+This text originally contained some general information about GitHub-flavored Markdown, but to improve my own MD-skills I will instead use this paragraph to show off some of the uses of Markdown. This is a screenshot of what this section previously contained:
+![before_edit](/readme_files/before_edit.png)
+
+
+A very handy feature of GitHub-flavored Markdown is the possibility to add code snippets, with full syntax highlighting for a wide range of [languages](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml).
+
+**Example 1: Mercury**
+
+```mercury
+:- pred merge_sort(list(int), list(int)).
+:- mode merge_sort(in, out) is det.
+
+merge_sort([], []).
+merge_sort([Elem], [Elem]).
+merge_sort(List, Result) :-
+    List = [_,_|_],
+    list.length(List, Len),
+    list.det_split_list(Len div 2, List, L1, L2),
+    merge_sort(L1, Res1),
+    merge_sort(L2, Res2),
+    list.merge(Res1, Res2, Result).
+```
+
+**Example 2: J**
+```j
+sel=: adverb def 'u # ['
+
+   quicksort=: verb define
+    if. 1 >: #y do. y
+    else.
+     (quicksort y <sel e),(y =sel e),quicksort y >sel e=.y{~?#y
+    end.
+   )
+```
+
 
 ### Step 6: Commit Your Changes ###
 
