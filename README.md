@@ -1,6 +1,6 @@
 # Assignment 1: Git and GitHub Basics #
 
-The purpose of this assigmment is to give you a basic working knowledge of `git` and [GitHub](https://github.com/), especially as they relate to code reviews.
+The purpose of this assignment is to give you a basic working knowledge of `git` and [GitHub](https://github.com/), especially as they relate to code reviews.
 This may seem intimidating at first, but it quickly becomes second nature.
 You will use these same skills throughout your projects for handling code reviews.
 
@@ -154,9 +154,61 @@ Now there are two branches (`master` and `updated`), and the `*` denotes that yo
 
 ### Step 5: Improve this Text ###
 
-Make an edit to this file (`README.md`), which is in [Markdown](https://en.wikipedia.org/wiki/Markdown) (specifically [GitHub-flavored Markdown](https://github.github.com/gfm/)) format.
-Your edit should somehow improve the content.
-This can mean adding further descriptions, adding demonstrative pictures, etc.
+This text originally contained some general information about GitHub-flavored Markdown, but to improve my own MD-skills I will instead use this paragraph to show off some of the uses of Markdown. This is a screenshot of what this section previously contained:
+![before_edit](/readme_files/before_edit.png)
+
+
+A very handy feature of GitHub-flavored Markdown is the possibility to add code snippets, with full syntax highlighting for a wide range of [languages](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml).
+
+**Example 1: Mercury**
+
+```mercury
+:- pred merge_sort(list(int), list(int)).
+:- mode merge_sort(in, out) is det.
+
+merge_sort([], []).
+merge_sort([Elem], [Elem]).
+merge_sort(List, Result) :-
+    List = [_,_|_],
+    list.length(List, Len),
+    list.det_split_list(Len div 2, List, L1, L2),
+    merge_sort(L1, Res1),
+    merge_sort(L2, Res2),
+    list.merge(Res1, Res2, Result).
+```
+
+**Example 2: J**
+```j
+sel=: adverb def 'u # ['
+
+   quicksort=: verb define
+    if. 1 >: #y do. y
+    else.
+     (quicksort y <sel e),(y =sel e),quicksort y >sel e=.y{~?#y
+    end.
+   )
+```
+
+**Example 3: Java**
+```java
+class FooSort {
+    public static main(String[] args) {
+        int bar = 10;
+        for (int baz = 0; baz < bar; baz++) {
+            sortSomeStuff();
+        }
+    }
+}
+```
+
+In addition to good support for code formatting and highlighting, Markdown also offers several different **cool** _ways_
+* to
+1. format
+>your
+
+`code`
+
+If you would like to be more like the cool teenagers and use trendy youth language in your README-file, GitHub Markdown supports _emojis_! GitHub's own octocat is of course represented here as an emoji :octocat:, and who can forget about classics like the neckbeard :neckbeard:, or the ever so trendy trollface :trollface:. The full guide on what emojis are supported can be found [here](https://github.com/ikatyang/emoji-cheat-sheet/).
 
 ### Step 6: Commit Your Changes ###
 
