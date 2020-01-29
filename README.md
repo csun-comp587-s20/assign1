@@ -153,7 +153,7 @@ If you run `git branch` again, you should see the following:
 Now there are two branches (`master` and `updated`), and the `*` denotes that you're on the `updated` branch.
 
 
-!["git-branch"](readme_files/branch.svg)
+!["git-branch"](readme_files/branch-git.svg)
 *A high-level image representation of `git branch`*
 
 ### Step 5: Improve this Text ###
