@@ -154,6 +154,7 @@ Now there are two branches (`master` and `updated`), and the `*` denotes that yo
 
 
 !["git-branch"](readme_files/branch-git.svg)
+
 *A high-level image representation of `git branch`*
 
 ### Step 5: Improve this Text ###
