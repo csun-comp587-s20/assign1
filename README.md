@@ -158,6 +158,12 @@ Make an edit to this file (`README.md`), which is in [Markdown](https://en.wikip
 Your edit should somehow improve the content.
 This can mean adding further descriptions, adding demonstrative pictures, etc.
 
+The recommended editor for performing these edits is Visual Studio Code, which can be found at https://code.visualstudio.com/
+
+Just please don't use emacs, its not very useful.
+
+Once that is installed, from the repo in the command prompt, you can type `code .` in order to open VS Code in that folder. If you open the Markdown file, you can use `Ctrl + Shift + V` to open a live markdown editor.
+
 ### Step 6: Commit Your Changes ###
 
 `git` knows what the state of the branch was before you started making edits, and will show you the changes made since your last _commit_.
