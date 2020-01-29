@@ -47,8 +47,8 @@ Click on your fork, and then click the `Clone or download` button, circled below
 Clicking this button will display a URL, which will be something like `git@github.com:your_username/assign1.git`.
 Have this URL handy somewhere (or even better, copy it to the clipboard).
 
-On your local machine, go to a directory that makes sense to you for this assignment.
-This will probably be a directory named `comp587`, or something like that.
+On your local machine, go to a directory that makes sense to you for this assignment(for example in your Desktop or Documents).
+This will probably be a directory named `comp587`, or something like that in which you will be saving files for this, and future assingments. 
 In that directory, issue the following command:
 
 ```console
@@ -67,7 +67,10 @@ At the end of the first step, it was established that your fork is a **copy** of
 While this has its uses, it's a little annoying, because we often want to be in sync with the original repository.
 
 To keep things in sync, we will take advantage of a `git` feature known as [remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes).
-For our purposes, a _remote_ is a glorified URL pointing to a remotely-accessible `git` repository somewhere.
+For our purposes, a _remote_ is a glorified URL pointing to a remotely-accessible `git` repository somewhere. To do this you need to change directory. 
+For example: 
+cd assign1
+
 If you type the following command:
 
 ```console
@@ -157,6 +160,7 @@ Now there are two branches (`master` and `updated`), and the `*` denotes that yo
 Make an edit to this file (`README.md`), which is in [Markdown](https://en.wikipedia.org/wiki/Markdown) (specifically [GitHub-flavored Markdown](https://github.github.com/gfm/)) format.
 Your edit should somehow improve the content.
 This can mean adding further descriptions, adding demonstrative pictures, etc.
+You edit this file, which is in your local computer's directory you created in step 2.
 
 ### Step 6: Commit Your Changes ###
 
