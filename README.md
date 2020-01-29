@@ -189,6 +189,18 @@ sel=: adverb def 'u # ['
    )
 ```
 
+**Example 3: Java**
+```java
+class FooSort {
+    public static main(String[] args) {
+        int bar = 10;
+        for (int baz = 0; baz < bar; baz++) {
+            sortSomeStuff();
+        }
+    }
+}
+```
+
 If you would like to be more like the cool teenagers and use trendy youth language in your README-file, GitHub Markdown supports _emojis_! GitHub's own octocat is of course represented here as an emoji :octocat:, and who can forget about classics like the neckbeard :neckbeard:, or the ever so youthful trollface :trollface:. The full guide on what emojis are supported can be found [here](https://github.com/ikatyang/emoji-cheat-sheet/).
 
 ### Step 6: Commit Your Changes ###
