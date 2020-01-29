@@ -152,6 +152,11 @@ If you run `git branch` again, you should see the following:
 
 Now there are two branches (`master` and `updated`), and the `*` denotes that you're on the `updated` branch.
 
+
+!["git-branch"](readme_files/branch-git.svg)
+
+*A high-level image representation of `git branch`*
+
 ### Step 5: Improve this Text ###
 
 Make an edit to this file (`README.md`), which is in [Markdown](https://en.wikipedia.org/wiki/Markdown) (specifically [GitHub-flavored Markdown](https://github.github.com/gfm/)) format.
