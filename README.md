@@ -205,7 +205,7 @@ In addition to good support for code formatting and highlighting, Markdown also 
 * to
 1. format
 >your
-`<code>`
+`code`
 
 If you would like to be more like the cool teenagers and use trendy youth language in your README-file, GitHub Markdown supports _emojis_! GitHub's own octocat is of course represented here as an emoji :octocat:, and who can forget about classics like the neckbeard :neckbeard:, or the ever so trendy trollface :trollface:. The full guide on what emojis are supported can be found [here](https://github.com/ikatyang/emoji-cheat-sheet/).
 
