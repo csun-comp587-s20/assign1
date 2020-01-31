@@ -284,6 +284,14 @@ Your name and description should concisely describe the changes you've made.
 Once you write the name and description, click the green `Create pull request` button again, which will submit the pull request.
 In the next assignment, we'll work with these submitted pull requests for code reviewing purposes.
 
+### Step 9: Try GitKraken (Optional) ###
+GitKraken is a click and play GUI for Git. With a simple click you can do almost everything. Plus GitKraken handles simple
+merge conflicts for you.
+
+Here is where it can be downloaded: [GitKraken](https://www.gitkraken.com/download)
+
+Here is a simple tutorial to follow on how to use GitKraken: [Tutorial](https://support.gitkraken.com/start-here/guide/)
+
 ## Retrospective ##
 
 In this assignment, you've gone over some basics of using `git` and GitHub.
