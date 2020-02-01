@@ -36,7 +36,7 @@ We'll come back to this in a bit.
 > On Linux, this should be available through your package manager if it isn't already installed.
 > On Mac, `git` is bundled with the normal developer tools, and on recent versions merely typing `git` will prompt you to install the developer tools.
 > On Windows, these commands can be downloaded [here](https://git-scm.com/downloads).
-> There are also a number of GUI tools out there for handling `git`.
+> There are also a number of GUI tools out there for handling `git`, such as GitKraken, Github Desktop, and Sublime Merge
 > You may use whatever you want.
 
 Go to your main GitHub page (should be `github.com/your_username`), and click the `Repositories` tab.
