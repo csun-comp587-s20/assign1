@@ -158,6 +158,13 @@ Make an edit to this file (`README.md`), which is in [Markdown](https://en.wikip
 Your edit should somehow improve the content.
 This can mean adding further descriptions, adding demonstrative pictures, etc.
 
+### Another Useful Command ###
+How to rename branch name after it was created:
+Checkout to the branch you need to rename: $ git checkout <old-name>
+Rename branch name locally: $ git branch -m <new-name>
+Delete old branch from remote: $ git push origin :<old-name> <new-name>
+Reset the upstream branch for the new branch name: $ git push origin -u <new-name>
+
 ### Step 6: Commit Your Changes ###
 
 `git` knows what the state of the branch was before you started making edits, and will show you the changes made since your last _commit_.
