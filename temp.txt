@@ -1,0 +1,7 @@
+How to rename branch name after it was created:
+Checkout to the branch you need to rename: $ git checkout <old-name>
+Rename branch name locally: $ git branch -m <new-name>
+Delete old branch from remote: $ git push origin :<old-name> <new-name>
+Reset the upstream branch for the new branch name: $ git push origin -u <new-name>
+
+-- added changes to README.md and created temp.txt 
