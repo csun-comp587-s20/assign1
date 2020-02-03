@@ -1,4 +1,4 @@
-Assignment 1: 
+## Assignment 1: ## 
 ## Git and GitHub Basics ##
 
 The purpose of this assigmment is to give you a basic working knowledge of `git` and [GitHub](https://github.com/), especially as they relate to code reviews.
