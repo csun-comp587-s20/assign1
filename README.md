@@ -7,7 +7,7 @@ You will use these same skills throughout your projects for handling code review
 ## Learning Objectives ##
 
 - Learn GitHub basics: how to fork, submit a pull request, and assign code reviewers
-- Learn `git` basics: how to `clone`, `branch`, `commit`, `push`, and `pull`
+- Learn `git` basics: how to `clone`, `branch`, `commit`, `ammend`, `push`, and `pull`
 
 -----------
 
@@ -251,7 +251,6 @@ On subsequent runs, `git` will default to using the `origin` remote for the `upd
 ```console
 git push
 ```
-
 ### Step 8: Submit a Pull Request ###
 
 Almost everything discussed so far has been about selective isolation of your code from the rest of the codebase.
@@ -283,6 +282,29 @@ Your name and description should concisely describe the changes you've made.
 
 Once you write the name and description, click the green `Create pull request` button again, which will submit the pull request.
 In the next assignment, we'll work with these submitted pull requests for code reviewing purposes.
+
+## Bonus Tip: Making Amendments to Commits ##
+
+If at any point you want to undo something due to a mistake such as, forgetting to add some files or messing up the commit message you can use `--amend`.
+If you just want to edit the commit message it can be done with the following command:
+
+```console
+git commit --amend
+```
+
+Running this single command will take your staged files and use it for the commit but open the commit-message editor to change the commit message. 
+The commit made using `amend` will **overwrite** the previous commit so you must be very careful.
+Additionally, if you want to add files you forgot to stage then you want to add this to the commit:
+
+```console
+git commit -m 'initial commit'
+git add forgotten_file
+git	commit --amend
+``` 
+
+The previous, commit will be overwritten and you will end up with a single commit. 
+It is important to note that `ammend` does not fix the previous commit it effectively replaces it, as if the previous commit never happened.
+ 
 
 ## Retrospective ##
 
