@@ -2,12 +2,15 @@
 
 The purpose of this assigmment is to give you a basic working knowledge of `git` and [GitHub](https://github.com/), especially as they relate to code reviews.
 This may seem intimidating at first, but it quickly becomes second nature.
+Even though, it has an above average learning curve, it is essential for any aspiring Computer Science Major.
 You will use these same skills throughout your projects for handling code reviews.
 
 ## Learning Objectives ##
 
 - Learn GitHub basics: how to fork, submit a pull request, and assign code reviewers
 - Learn `git` basics: how to `clone`, `branch`, `commit`, `push`, and `pull`
+- Prepare oneself for their professional working career
+- Learn an important tool that will be utilized in COMP587
 
 -----------
 
