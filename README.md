@@ -200,6 +200,18 @@ git add README.md temp.txt
 
 The above command states that changes to `README.md` are part of this commit, and that `temp.txt` is similarly part of this commit.
 
+You can also stage all of the changed files by doing the following command:
+
+```console
+git add . 
+```
+
+However, the command above will only work for files in the root direcotry. If your project has sub-directories you can use the following git command: 
+
+```console 
+git add --all
+``` 
+
 You can use `git status` again to see the effect of this staging.
 For this particular example, we see the following:
 
