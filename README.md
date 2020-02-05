@@ -199,6 +199,7 @@ git add README.md temp.txt
 ```
 
 The above command states that changes to `README.md` are part of this commit, and that `temp.txt` is similarly part of this commit.
+If you know that you would like everything in the current directory to be added to the commit then you can use . instead of the file names.
 
 You can use `git status` again to see the effect of this staging.
 For this particular example, we see the following:
@@ -222,6 +223,7 @@ git commit
 
 This will bring up an editor (honoring the `$EDITOR` environment variable), allowing you to write a descriptive message (the _commit message_) for your commit.
 Once you save your message, your commit will be done.
+If you use the -m option you can include the message inline. 
 You can verify that your commit did something like so:
 
 ```console
