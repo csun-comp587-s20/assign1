@@ -220,8 +220,7 @@ Once everything you want is staged, you can commit your changes like so:
 git commit
 ```
 
-This will bring up an editor (honoring the `$EDITOR` environment variable), allowing you to write a descriptive message (the _commit message_) for your commit.
-Once you save your message, your commit will be done.
+This will bring up an editor (honoring the `$EDITOR` environment variable), allowing you to write a descriptive message (the _commit message_) for your commit. To save your message press `esc` then type in `:wq` and press `return`.Once you save your message, your commit will be done.
 You can verify that your commit did something like so:
 
 ```console
