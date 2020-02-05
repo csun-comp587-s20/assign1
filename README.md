@@ -10,6 +10,9 @@ You will use these same skills throughout your projects for handling code review
 - Learn `git` basics: how to `clone`, `branch`, `commit`, `push`, and `pull`
 
 -----------
+## Table of Content
+-[Step-by-Step Instructions](#Step-by-Step Instructions)
+  1. [Create a GitHub Account](#Create a GitHub Account)
 
 ## Step-by-Step Instructions ##
 
@@ -228,7 +231,7 @@ git log
 ```
 
 The above command will list all the commits that have happened to your code, underneath the branch you're on.
-The first commit listed will be the one you just made, and will include your commit message.
+The first commit listed will be the one you just made, and will include your commit message. Press enter to see all the commits. Once you reached to `END` flag you can exit `log` by pressing `q`.
 
 ### Step 7: Push your Branch and Your Changes ###
 
