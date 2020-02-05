@@ -9,6 +9,16 @@ You will use these same skills throughout your projects for handling code review
 - Learn GitHub basics: how to fork, submit a pull request, and assign code reviewers
 - Learn `git` basics: how to `clone`, `branch`, `commit`, `push`, and `pull`
 
+## Table of Contents	
+1. [Create a GitHub Account](#Step 0: Create a GitHub Account)
+2. [Clone your Fork](#Step 2: Clone your Fork)
+3. [Setup your Fork to Sync with the Original](#Step 3: Setup your Fork to Sync with the Original)
+4. [Create a New Local Branch](#Step 4: Create a New Local Branch)
+5. [Improve this Text](#Step 5: Improve this Text)
+6. [Commit Your Changes](#Step 6: Commit Your Changes)
+7. [Push your Branch and Your Changes](#Step 7: Push your Branch and Your Changes)
+8. [Submit a Pull Request](#Step 8: Submit a Pull Request)
+9. [Retrospective](#Retrospective)
 -----------
 
 ## Step-by-Step Instructions ##
