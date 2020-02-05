@@ -157,6 +157,7 @@ Now there are two branches (`master` and `updated`), and the `*` denotes that yo
 Make an edit to this file (`README.md`), which is in [Markdown](https://en.wikipedia.org/wiki/Markdown) (specifically [GitHub-flavored Markdown](https://github.github.com/gfm/)) format.
 Your edit should somehow improve the content.
 This can mean adding further descriptions, adding demonstrative pictures, etc.
+This is me editing to confirm that the file is great as it is.
 
 ### Step 6: Commit Your Changes ###
 
