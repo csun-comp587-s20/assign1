@@ -12,7 +12,7 @@ You will use these same skills throughout your projects for handling code review
 -----------
 ## Table of Content
 1. [Step-by-Step Instructions](#Step-by-Step Instructions)
-2. [Create a GitHub Account](#Step 0: Create a GitHub Account )
+2. [Create a GitHub Account](###Step 0: Create a GitHub Account )
 3. [Retrospective](#Retrospective)
 
 Hello, this is a test
