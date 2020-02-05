@@ -289,3 +289,26 @@ In the next assignment, we'll work with these submitted pull requests for code r
 In this assignment, you've gone over some basics of using `git` and GitHub.
 You've forked and cloned repositories, made branches, committed code, and submitted a pull request.
 While this barely scratches the surface of what you can do with `git`, this describes ~80-90% of commonly-used functionality.
+
+## Troubleshooting -- MacOS ##
+
+When trying to clone the repository, if you get the error below, follow the next steps to fix the issue.
+
+```console
+xcrun: error: invalid active developer path (/Applications/Xcode.app/Contents/Developer), missing xcrun at: /Applications/Xcode.app/Contents/Developer/usr/bin/xcrun
+```
+
+The error above may happen if you do not have Xcode installed. However, there is no need to install Xcode completely. To install the Xcode developer tools and help fix this issue run the following:
+
+```console
+xcode-select --install
+```
+
+If the above didn't fix it, do the following. Note: These may need to be run as root user. To do this
+add "sudo" before the command as seen on the first line below.
+
+```console
+sudo xcode-select --reset
+xcode-select --switch /Applications/Xcode.app
+xcode-select --switch /Library/Developer/CommandLineTools
+```
