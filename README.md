@@ -142,7 +142,7 @@ Let's make a new branch, using the following command:
 git checkout -b updated
 ```
 
-This creates a new branch named `updated`, which splits off from the `master` branch.
+This creates a new branch named `updated`, which splits off from the `master` branch. If you want to switch to another already created branch you can omit the -b.
 If you run `git branch` again, you should see the following:
 
 ```
