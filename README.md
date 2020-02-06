@@ -57,7 +57,7 @@ git clone URL
 
 ...where `URL` is the URL above.
 This will download all the files in your fork to the local `assign1` directory, underneath whatever directory you're in.
-(The `assign1` directory will be created automatically.)
+(The `assign1` directory will be created automatically). Now you need to `cd` into 'assign1' by just entering `cd assign1`. 
 
 Don't make any changes just yet; there is still some setup we need to do.
 
@@ -220,8 +220,7 @@ Once everything you want is staged, you can commit your changes like so:
 git commit
 ```
 
-This will bring up an editor (honoring the `$EDITOR` environment variable), allowing you to write a descriptive message (the _commit message_) for your commit.
-Once you save your message, your commit will be done.
+This will bring up an editor (honoring the `$EDITOR` environment variable), allowing you to write a descriptive message (the _commit message_) for your commit. To save your message press `esc` then type in `:wq` and press `return`.Once you save your message, your commit will be done.
 You can verify that your commit did something like so:
 
 ```console
@@ -229,7 +228,13 @@ git log
 ```
 
 The above command will list all the commits that have happened to your code, underneath the branch you're on.
-The first commit listed will be the one you just made, and will include your commit message.
+The first commit listed will be the one you just made, and will include your commit message. Press enter to see all the commits. Once you reached to `END` flag you can exit `log` by pressing `q`.
+
+If you want to undo the latest commit you can just run the following:
+
+```console
+git reset
+```
 
 ### Step 7: Push your Branch and Your Changes ###
 
