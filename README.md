@@ -68,7 +68,7 @@ While this has its uses, it's a little annoying, because we often want to be in 
 
 To keep things in sync, we will take advantage of a `git` feature known as [remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes).
 For our purposes, a _remote_ is a glorified URL pointing to a remotely-accessible `git` repository somewhere.
-If you type the following command:
+If you type the following command (make sure you are now in the newly created assign1 directory):
 
 ```console
 git remote -v
