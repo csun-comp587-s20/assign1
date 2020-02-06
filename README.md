@@ -1,4 +1,4 @@
-# Assignment 1: Git and GitHub Basics #
+# Assignment #1  #
 
 The purpose of this assigmment is to give you a basic working knowledge of `git` and [GitHub](https://github.com/), especially as they relate to code reviews.
 This may seem intimidating at first, but it quickly becomes second nature.
@@ -288,4 +288,5 @@ In the next assignment, we'll work with these submitted pull requests for code r
 
 In this assignment, you've gone over some basics of using `git` and GitHub.
 You've forked and cloned repositories, made branches, committed code, and submitted a pull request.
-While this barely scratches the surface of what you can do with `git`, this describes ~80-90% of commonly-used functionality.
+While this barely scratches the surface of what you can do with `git`, this describes ~80-90% of commonly-used functionality. This text file has been modified for the purpose of the assignmennt.
+
