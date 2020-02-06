@@ -57,7 +57,7 @@ git clone URL
 
 ...where `URL` is the URL above.
 This will download all the files in your fork to the local `assign1` directory, underneath whatever directory you're in.
-(The `assign1` directory will be created automatically.)
+(The `assign1` directory will be created automatically). Now you need to `cd` into 'assign1' by just entering `cd assign1`. 
 
 Don't make any changes just yet; there is still some setup we need to do.
 
