@@ -164,6 +164,7 @@ This can mean adding further descriptions, adding demonstrative pictures, etc.
 A commit is an explicit point where you effectively say "save this content".
 Commits represent the content of all files at distinct points in time.
 Being tanglible things, `git` allows us to do things like view code as it was at a particular commit, undo the changes made at a commit, and so on.
+Create a new .txt file called temp.txt
 
 First, let's see what has changed.
 You can do this with the following command:
