@@ -230,6 +230,12 @@ git log
 The above command will list all the commits that have happened to your code, underneath the branch you're on.
 The first commit listed will be the one you just made, and will include your commit message. Press enter to see all the commits. Once you reached to `END` flag you can exit `log` by pressing `q`.
 
+If you want to undo the latest commit you can just run the following:
+
+```console
+git reset
+```
+
 ### Step 7: Push your Branch and Your Changes ###
 
 While you have made changes and they are safely in your branch, this branch exists only on your machine.
