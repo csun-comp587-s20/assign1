@@ -18,6 +18,7 @@ You will use these same skills throughout your projects for handling code review
 If you do not already have a [GitHub](https://github.com/) account, create one now.
 This should only take a couple minutes, and it's free.
 If you already have an account, you can use your existing account.
+Github has private repositories as a part of their premium accounts. 
 
 ### Step 1: Fork this Repository ###
 
