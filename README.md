@@ -10,14 +10,6 @@ You will use these same skills throughout your projects for handling code review
 - Learn `git` basics: how to `clone`, `branch`, `commit`, `push`, and `pull`
 
 -----------
-## Table of Content
-1. [Step-by-Step Instructions](#Step-by-Step Instructions-1)
-2. [Create a GitHub Account](###Step 0: Create a GitHub Account-2)
-3. [Retrospective](#Retrospective)
-
-Hello, this is a test
-Another test
-one more test
 
 ## Step-by-Step Instructions ##
 
