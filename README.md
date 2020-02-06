@@ -158,6 +158,8 @@ Make an edit to this file (`README.md`), which is in [Markdown](https://en.wikip
 Your edit should somehow improve the content.
 This can mean adding further descriptions, adding demonstrative pictures, etc.
 
+Create a new file in this directory "temp.txt"
+
 ### Step 6: Commit Your Changes ###
 
 `git` knows what the state of the branch was before you started making edits, and will show you the changes made since your last _commit_.
