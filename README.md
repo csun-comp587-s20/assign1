@@ -86,7 +86,7 @@ The above information states that you have one remote named `origin`, from which
 By convention, `origin` is wherever the "home" of this repository is, which corresponds to your particular fork.
 
 To keep things in sync with the original repository, we'll add the original repository as a remote.
-First, get the `Clone or download` URL from the **original** repository, using the same process as in Step 2.
+First, get the `Clone or download` URL from the **original** repository (https://github.com/csun-comp587-s20/assign1), using the same process as in Step 2.
 Then, run the following command:
 
 ```console
