@@ -93,7 +93,8 @@ Then, run the following command:
 git remote add upstream URL
 ```
 
-...where `URL` is the URL from the original repository.
+...where `URL` is the URL from the [original repository](https://github.com/csun-comp587-s20/assign1.git).
+
 This command states to add a new remote named `upstream`, which points to `URL`.
 By convention, `upstream` points to the source we forked from.
 You can confirm that this command worked by running `git remote -v` again.

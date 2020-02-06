@@ -1,0 +1,1 @@
+Not sure if we need to have this file. The Assignment doesn't mention to add it but mentions a new file in step 6 so I'm creating it.
