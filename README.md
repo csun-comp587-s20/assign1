@@ -152,6 +152,7 @@ If you run `git branch` again, you should see the following:
 
 Now there are two branches (`master` and `updated`), and the `*` denotes that you're on the `updated` branch.
 
+It is a good idea to adopt a branching strategy to keep your branches neat. You can learn more about how to do so from [this guide from Microsoft](https://docs.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=azure-devops)
 ### Step 5: Improve this Text ###
 
 Make an edit to this file (`README.md`), which is in [Markdown](https://en.wikipedia.org/wiki/Markdown) (specifically [GitHub-flavored Markdown](https://github.github.com/gfm/)) format.
